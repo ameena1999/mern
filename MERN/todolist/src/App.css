@@ -1,0 +1,84 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  font-family: Arial, sans-serif;
+  padding-top: 50px;
+  color: rgba(119, 45, 2, 0.84);
+}
+
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid rgba(128, 47, 1, 0.822);
+  outline: none;
+  background-color: transparent;
+  color: rgba(119, 45, 2, 0.84);
+}
+
+.create_form input:hover {
+  border: 3px solid rgba(128, 47, 1, 0.822); 
+  transition: background-color 0.3s ease; 
+}
+
+.create_form button:hover {
+  color: white;
+  border: 3px solid rgba(128, 47, 1, 0.822);
+  background-color: rgba(128, 47, 1, 0.822); 
+}
+
+.create_form button {
+  border: 2px solid rgba(128, 47, 1, 0.822);
+  padding: 10px;
+  background-color: rgba(128, 47, 1, 0.822);
+  color: rgb(253, 246, 222);
+  cursor: pointer;
+}
+
+
+.task{
+  display: flex;
+  align-items: center;
+  width: 360px;
+  justify-content: space-between;
+  background-color: rgba(128, 47, 1, 0.822);
+  color: rgb(253, 246, 222);
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+}
+
+.task:hover {
+  border: 3px solid rgba(128, 47, 1, 0.822);
+  background-color: rgba(128, 47, 1, 0.822); 
+  transition: background-color 0.3s ease; 
+}
+
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+  cursor: pointer;
+}
